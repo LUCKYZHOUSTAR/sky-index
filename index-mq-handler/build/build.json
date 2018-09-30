@@ -1,0 +1,11 @@
+{
+  "productVersion": "${project.version}",
+  "scmRevision": "${git.commit.id}",
+  "scmBranch": "${git.branch}",
+  "scmUser": "${git.commit.user.name}",
+  "scmMessage": "${git.commit.message.short}",
+  "scmTime": "${git.commit.time}",
+  "buildAt": "${git.build.time}",
+  "buildBy": "${user.name}",
+  "buildOn": "${git.build.host}"
+}
